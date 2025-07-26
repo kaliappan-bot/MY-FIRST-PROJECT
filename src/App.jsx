@@ -1,4 +1,7 @@
-import User from './user';
+import User from './User';
+import UseState from './UseState';
+import UseRef from './UseRef';
+import UseEffect from './UseEffect';
 //   return (
 //     <>
 //     <h1>App</h1>
@@ -32,6 +35,10 @@ function App() {
     phone={userData.phone}
     email={userData.email}
     />
+    <User />
+    <UseState />
+    <UseEffect />
+    <UseRef />
     </>
   );
 }
