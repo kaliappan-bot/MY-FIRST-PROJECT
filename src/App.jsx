@@ -57,6 +57,7 @@ function App() {
     <UseContext />
     <UserReducer />
     <UseLayout />
+    <h1>React Router</h1>
     <BrowserRouter>
     <Navbar />
     <Routes>

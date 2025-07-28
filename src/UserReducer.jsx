@@ -26,10 +26,12 @@ const UserReducer = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-        alignItems: "center",
+        alignItems: "left",
         gap: "10px",
       }}
     >
+      <h1>28/07/2025</h1>
+      <h1>Use Reducer</h1>
       <h2>Count: {state.count}</h2>
       <div>
         <button onClick={() => dispatch({ type: ACTIONS.DECREMENT })}>-</button>
