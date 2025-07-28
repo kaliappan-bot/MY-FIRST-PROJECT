@@ -1,7 +1,10 @@
-import User from './User';
+
 import UseState from './UseState';
 import UseRef from './UseRef';
 import UseEffect from './UseEffect';
+import UseMemo from './UseMemo';
+import UseCallback from './UseCallback';
+import UseContext from './UseContext';
 //   return (
 //     <>
 //     <h1>App</h1>
@@ -17,7 +20,7 @@ function Hello() {
     <h2>Good Morning</h2>
     </>
   );
-}
+};
 
 function App() {
   const userData={
@@ -29,16 +32,19 @@ function App() {
   return(
     <>
     <h1>Hello World</h1>
-    <User 
+    {/* <User 
     name={userData.name}
     age={userData.age}
     phone={userData.phone}
     email={userData.email}
-    />
-    <User />
+    /> */}
+   
     <UseState />
     <UseEffect />
     <UseRef />
+    <UseMemo />
+    <UseCallback />
+    <UseContext />
     </>
   );
 }

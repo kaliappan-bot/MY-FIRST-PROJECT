@@ -8,5 +8,5 @@ function User(props) {
         <h4>{props.email}</h4>
         </>
     );
-}
+};
 export default User;
