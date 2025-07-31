@@ -23,7 +23,7 @@ import Navbar from './assets/Redux/Navbar';
 import ErrorRedux from './assets/Redux/Error';
 import "./assets/Redux/Navbar.css"
 import Functional from './Functional';
-import Class from './class';
+import Class from './Class';
 function Hello() {
   return (
     <>
