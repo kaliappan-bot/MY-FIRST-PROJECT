@@ -22,7 +22,7 @@ import ContactRedux from './assets/Redux/Contact';
 import Navbar from './assets/Redux/Navbar';
 import ErrorRedux from './assets/Redux/Error';
 import "./assets/Redux/Navbar.css"
-import Functional from './functional';
+import Functional from './Functional';
 import Class from './class';
 function Hello() {
   return (
