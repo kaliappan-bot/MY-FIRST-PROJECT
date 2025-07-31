@@ -1,12 +1,8 @@
 import React, { useReducer } from "react";
-
-
 const ACTIONS = {
   INCREMENT: "increment",
   DECREMENT: "decrement",
 };
-
-
 function reducerFn(state, action) {
   switch (action.type) {
     case ACTIONS.INCREMENT:
@@ -17,7 +13,6 @@ function reducerFn(state, action) {
       return state;
   }
 }
-
 const UserReducer = () => {
   const [state, dispatch] = useReducer(reducerFn, { count: 0 });
 
