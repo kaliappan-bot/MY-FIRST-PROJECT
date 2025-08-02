@@ -18,6 +18,7 @@ const APICall = () => {
     return (
         <>
         <h1>02/08/2025</h1>
+        <h1>API call</h1>
         <h1>Kalees Api</h1>
         <button onClick={apicall}>API call</button>
         </>
