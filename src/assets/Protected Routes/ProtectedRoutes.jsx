@@ -11,6 +11,7 @@ const ProtectedRoutes = () => {
     return (
         <Provider store={store}>
             {/* <BrowserRouter> */}
+            <h1>01/08/2025</h1>
             <Navbar />
             <Routes>
             <Route path="/" element={<Home />} />
