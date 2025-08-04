@@ -27,6 +27,8 @@ import Class from './Class';
 import ProtectedRoutes from './assets/Protected Routes/ProtectedRoutes';
 import APICall from './APICall';
 import ReactQuery from './ReactQuery';
+import HOC from './HOC';
+import CURD from './CURD/CURD';
 function Hello() {
   return (
     <>
@@ -86,6 +88,8 @@ function App() {
       <ProtectedRoutes />
           <APICall />
         <ReactQuery />
+        <HOC />
+        <CURD />
       </BrowserRouter>
   );
 }
